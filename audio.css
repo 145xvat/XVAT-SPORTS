@@ -1,0 +1,179 @@
+ html{
+       background-color:white;
+       overflow: hidden;
+       overflow-: scroll;
+       overflow-y: scroll;
+}
+ body{
+       background-image:radial-gradient(to top left,green,red, orange);
+       background-attachment: center;
+       background-position:fixed;
+       background-repeat:no-repeat;
+       width:380px;
+       background-size:cover;
+       text-align:center;
+       min-height:200em;
+       position:absolute;
+       box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);"
+}
+image{
+  width:10px;
+  height:10px;
+}
+hr{
+  background-color:black;
+  background-size:50px;
+  line-height:31px;
+  height:5px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+  
+}
+h1{
+  font-size:40px;
+  font-family:monospace;
+  text-decoration:;
+  color:white;
+  padding:15px;
+  letter-spacing:px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+}
+.header{
+ background-image:linear-gradient(black,grey);
+ box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+}
+.pagination-container {
+ background-image:linear-gradient(grey,black);
+ border-radius:10px;
+ border:4px black;
+ text-align: center;
+ line-height:3px;
+ width:380px;
+ box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+ }
+    .pagination {
+        display: inline-block;
+        margin: 0;
+        padding: 10px;
+        color:black;
+        width:380px;
+ }
+ .pagination li {
+ display: inline-block;
+ color:black;
+ font-family: monospace;
+ font-weight: bold;
+ }
+ .pagination a {
+ color: white;
+ text-decoration: none;
+ padding: 7px 14px;
+ float:right;
+ 
+ transition-duration: 1s;
+ font-family: monospace;
+ font-family: bold;
+ }
+  .pagination a:hover {
+  background: white;
+  color: black;
+  padding:10px;
+  transition-duration: 2s;
+  background-size:5px;
+ }
+  .pagination li:last-child > a {
+  border: none;
+ }
+ @keyframe{
+   before{padding:10px};
+   after{padding:15px};
+ }
+ h2,h3{
+   text-decoration:underline;
+   text-decoration-style:dashed;
+   font-family:monospace;
+ }
+ .card {
+      box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+      width: 380px;
+      font-family: sans-serif;
+      color: #f8f9f9;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .card-header {
+      padding: 10px;
+      font-size: 18px;
+      background: green;
+    }
+    .card-body {
+      padding: 10px;
+      background: pink;
+    }
+    label{
+      text-decoration:underline;
+      color:red;
+      font-family:monospace;
+    }
+    p{
+      color:blue;
+    }
+   image {
+      box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+   }
+   .developer{
+     background-image: linear-gradient(grey,black);
+     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+   }
+   .dev-head{
+     background-color:red;
+     color:white;
+     font-family:monospace;
+     font-size:20px;
+     text-decoration-style:dashed;
+     text-decoration:underline;
+     background-size:cover;
+   }
+ .him{
+   background-color:grey;
+   width:30px;
+   height:40px;
+   text-align:center;
+   border-radius:50%;
+   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+ }
+ 
+.him:hover{
+  width:370px;
+  border-radius:50%;
+  transition-duration:2s;
+  transition-timing-function: ease-in;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+}
+p{
+  background-image:radial-gradient(pink,teal,lightblue, orange);
+  text-decoration:strike-through;
+  color:skyblue;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+}
+img{
+  width:170px;
+  right:10px;
+  height:250px;
+  border-right:1px white;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+}
+.manutd{
+  background-image:linear-gradient(grey,black);
+  display:flex;
+  overflow-x:scroll;
+  overflow-y: scroll;
+  height:250px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+}
+#manutd{
+  color:white;
+  overflow:scroll hidden;
+  overflow-x: auto;
+  overflow-y: auto;
+}
